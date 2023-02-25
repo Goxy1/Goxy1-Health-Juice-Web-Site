@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    background-color:#4CAF50;
+    color: white;
+}
+button{
+    transition-duration: 0.4s;
+    width: 15%;
+    height: 30px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #008cba;
+    color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+    color: #4CAF50;
+}
+a:link, a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block; 
+}
+a:hover, a:active{
+    background-color: red;
+}

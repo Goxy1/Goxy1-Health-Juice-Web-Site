@@ -1,0 +1,29 @@
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover,
+.btn-default:hover{ 
+    color:#333;
+    background-color: #e4a316;
+    text-decoration: none;
+} 
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e4a316;
+}
+.img-thumbnail{
+    border: 1px solid #40b413;
+}
+.panel-footer
+{
+    border-top: 1px solid #64940b;
+}
+.carousel-inner>.item>img{
+    width: 100%;
+    height: auto;
+}
+
+iframe{
+    border:0;
+    width: 550px;
+    height: 450px;
+}
